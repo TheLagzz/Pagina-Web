@@ -16,16 +16,30 @@
     <main class="glass-card">
         <header>
             <div class="profile-header">
-                <h1>Adriel</h1>
+                <img src="mi_foto.jpg" alt="Foto de Adriel" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 3px solid rgba(255,255,255,0.2);">
+                
+                <h1>Adriel Emilio Reynoso Galindo</h1>
                 <span class="badge">Ingeniería en Sistemas Computacionales</span>
             </div>
-            <p class="institution">ESCOM - Instituto Politécnico Nacional</p>
+            
+            <div style="margin-top: 15px; font-size: 0.95rem;">
+                <p class="institution"><strong>Institución:</strong> ESCOM - Instituto Politécnico Nacional</p>
+                <p><strong>Semestre:</strong> Cursando el 6to semestre</p>
+                <p style="margin-top: 10px;"><i class="fas fa-envelope"></i> correo_escom@alumno.ipn.mx</p>
+                
+                <div style="margin-top: 15px;">
+                    <a href="#" style="color: inherit; margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-github"></i></a>
+                    <a href="#" style="color: inherit; margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
         </header>
 
         <nav class="tabs">
             <a href="#about"><i class="fas fa-user-code"></i> Perfil</a>
             <a href="#hobbies"><i class="fas fa-gamepad"></i> Hobbies</a>
-            <a href="#cv"><i class="fas fa-file-pdf"></i> CV</a>
+            <a href="#cripto"><i class="fas fa-user-secret"></i> Criptografía</a>
+            <a href="CV_Adriel_Reynoso.pdf" target="_blank"><i class="fas fa-file-pdf"></i> CV</a>
+            <a href="#" target="_blank"><i class="fas fa-key"></i> Mi llave Pública</a>
         </nav>
 
         <section id="about" class="content-section">
@@ -38,28 +52,32 @@
 
         <section id="hobbies" class="content-section">
             <h2><i class="fas fa-star"></i> Hobbies & Intereses</h2>
-            <div class="grid-hobbies">
-                <div class="hobby-item">
+            <div class="grid-hobbies" style="display: grid; gap: 20px; margin-top: 15px;">
+                <div class="hobby-item" style="text-align: center;">
+                    <img src="hobby1.jpg" alt="Gaming" style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;">
                     <i class="fas fa-headset"></i>
                     <span>Gaming (Overwatch 2, Fallout 76, Minecraft)</span>
                 </div>
-                <div class="hobby-item">
+                <div class="hobby-item" style="text-align: center;">
+                    <img src="hobby2.jpg" alt="Idiomas" style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;">
                     <i class="fas fa-language"></i>
                     <span>Idiomas (Inglés A3 & Japonés)</span>
                 </div>
-                <div class="hobby-item">
+                <div class="hobby-item" style="text-align: center;">
+                    <img src="hobby3.jpg" alt="Tecnología" style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;">
                     <i class="fas fa-code-branch"></i>
                     <span>Aprendizaje continuo de nuevas tecnologías</span>
                 </div>
             </div>
         </section>
 
-        <section id="cv" class="content-section">
-            <div class="cv-wrapper">
-                <p>¿Buscas más detalles técnicos sobre mi trayectoria?</p>
-                <a href="CV_Adriel_Reynoso.pdf" class="btn-cv" target="_blank">
-                Descargar Curriculum Vitae <i class="fas fa-file-pdf"></i>
-                </a>
+        <section id="cripto" class="content-section">
+            <h2><i class="fas fa-lock"></i> Acerca de Criptografía</h2>
+            <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 8px; margin-top: 10px;">
+                <h3 style="margin-bottom: 10px;">El Algoritmo RSA</h3>
+                <p style="font-size: 0.95rem;">
+                    RSA (Rivest-Shamir-Adleman) es un sistema criptográfico de clave pública desarrollado en 1977. Es uno de los algoritmos más utilizados para asegurar la transmisión de datos. Su seguridad radica en la dificultad computacional de factorizar números enteros muy grandes, sentando las bases para las comunicaciones seguras en el internet moderno.
+                </p>
             </div>
         </section>
 
