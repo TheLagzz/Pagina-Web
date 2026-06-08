@@ -11,7 +11,7 @@ Este repositorio contiene el código fuente de mi página web personal y portafo
 ### Opción 1: Ver en línea (Recomendado para revisión)
 La página está desplegada y accesible a través de GitHub Pages. 
 Puedes verla directamente haciendo clic en el siguiente enlace:
-👉 **[Reemplaza esto con tu link, ej: https://TheLagzz.github.io/Pagina-Web]**
+👉 **[https://TheLagzz.github.io/Pagina-Web]**
 
 ### Opción 2: Ejecutar localmente
 Si deseas descargar el código y ejecutarlo en tu propia computadora, sigue estos pasos:
