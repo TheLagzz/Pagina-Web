@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Adriel Reynoso</title>
-    <!-- Aquí conectamos tu archivo de estilos y tu icono -->
+    <!-- Conexión a tus estilos y favicon -->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body style="font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333;">
 
-    <!-- Encabezado y Presentación -->
+    <!-- Encabezado -->
     <header style="text-align: center; padding: 50px 20px; background-color: #2c3e50; color: white;">
         <img src="mi_foto.jpg" alt="Foto de Adriel Reynoso" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #fff;">
         <h1>Adriel Reynoso</h1>
         <p>Estudiante de Ingeniería en Sistemas Computacionales | ESCOM - IPN</p>
     </header>
 
-    <!-- Sección Sobre Mí y CV -->
+    <!-- Sobre Mí y CV -->
     <section style="max-width: 800px; margin: 40px auto; padding: 0 20px; text-align: center;">
         <h2>Sobre Mí</h2>
-        <p>¡Hola! Soy Adriel. Me apasiona la tecnología, el desarrollo de software y la seguridad informática.</p>
+        <p>¡Hola! Soy Adriel. Me apasiona la tecnología, el desarrollo de software y la ciberseguridad.</p>
         <div style="margin-top: 20px;">
             <a href="CV_Adriel_reynoso.pdf" download="CV_Adriel_Reynoso.pdf" style="display: inline-block; padding: 10px 20px; background-color: #e74c3c; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
                 📄 Descargar mi Curriculum Vitae
@@ -28,7 +28,7 @@
         </div>
     </section>
 
-    <!-- Sección de Hobbies -->
+    <!-- Hobbies -->
     <section style="max-width: 800px; margin: 40px auto; padding: 0 20px; text-align: center;">
         <h2>Mis Hobbies</h2>
         <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
@@ -40,24 +40,22 @@
 
     <hr style="max-width: 800px; border: 1px solid #ddd; margin: 40px auto;">
 
-    <!-- Sección de Contacto Seguro (Llave PGP) -->
+    <!-- Sección Criptografía: Llave Pública -->
     <section id="contacto-seguro" style="text-align: center; margin: 40px auto 60px auto; max-width: 800px; padding: 0 20px;">
-        <h2>Contacto Seguro</h2>
-        <p>Si necesitas comunicarte conmigo o enviarme información sensible de forma confidencial, puedes cifrar tu mensaje utilizando mi llave pública PGP.</p>
+        <h2>Contacto Seguro (PGP)</h2>
+        <p>Si necesitas comunicarte conmigo o enviarme información sensible de forma confidencial, descarga mi llave pública PGP para cifrar tu mensaje.</p>
         
-        <!-- Botón de Descarga -->
-        <div style="margin: 20px 0;">
-            <a href="llave_publica.asc" download="Adriel_Reynoso_Public_Key.asc" style="display: inline-block; padding: 12px 24px; background-color: #0056b3; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s;">
-                📥 Descargar Llave Pública PGP
+        <!-- BOTÓN DE DESCARGA DIRECTA -->
+        <div style="margin: 30px 0;">
+            <a href="llave_publica.asc" download="Adriel_Reynoso_Public_Key.asc" style="display: inline-block; padding: 14px 28px; background-color: #0056b3; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 16px; transition: background-color 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                📥 Descargar Llave Pública (.asc)
             </a>
         </div>
 
-        <!-- Menú desplegable para ver el código en texto plano -->
+        <!-- Opción secundaria: Ver código en pantalla -->
         <details style="background-color: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 15px; text-align: left; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <summary style="cursor: pointer; font-weight: bold; color: #333;">Ver bloque de texto de la llave pública</summary>
+            <summary style="cursor: pointer; font-weight: bold; color: #333;">Ver bloque de texto de la llave (Copiar manual)</summary>
             <pre style="background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 4px; overflow-x: auto; font-size: 12px; margin-top: 15px;">
------BEGIN PGP PUBLIC KEY BLOCK-----
-
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGo9cmEBEACyI+xwYY7hJ5kDwv9zhnCKBYOzrFfnYPLiUFohRSCX3Vfl2J+m
@@ -111,12 +109,11 @@ KODxl8OlNPojoYIhmOaOTCUSz8bW1x1laiYmCdqMq388sdWf1Vil
 =rHB0
 -----END PGP PUBLIC KEY BLOCK-----
 
-
------END PGP PUBLIC KEY BLOCK-----
             </pre>
         </details>
     </section>
 
+    <!-- Pie de página -->
     <footer style="text-align: center; padding: 20px; background-color: #2c3e50; color: white;">
         <p>© 2026 Adriel Reynoso. Todos los derechos reservados.</p>
     </footer>
