@@ -16,20 +16,20 @@
     <main class="glass-card">
         <header>
             <div class="profile-header">
-                <img src="mi_foto.jpg" alt="Foto de Adriel" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 3px solid rgba(255,255,255,0.2);">
+                <img src="mi_foto.jpg" alt="Foto de Adriel" class="profile-photo">
                 
                 <h1>Adriel Emilio Reynoso Galindo</h1>
                 <span class="badge">Ingeniería en Sistemas Computacionales</span>
             </div>
             
-            <div style="margin-top: 15px; font-size: 0.95rem;">
+            <div class="header-info">
                 <p class="institution"><strong>Institución:</strong> ESCOM - Instituto Politécnico Nacional</p>
                 <p><strong>Semestre:</strong> Cursando el 6to semestre</p>
-                <p style="margin-top: 10px;"><i class="fas fa-envelope"></i> emiadre1909@outlook.com</p>
-                
-                <div style="margin-top: 15px;">
-                    <a href="https://github.com/TheLagzz" style="color: inherit; margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/adriel-emilio-reynoso-galindo-6a2365415/" style="color: inherit; margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                <p class="email-line"><i class="fas fa-envelope"></i> emiadre1909@outlook.com</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/TheLagzz"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/adriel-emilio-reynoso-galindo-6a2365415/"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </header>
@@ -52,32 +52,32 @@
 
         <section id="hobbies" class="content-section">
             <h2><i class="fas fa-star"></i> Hobbies & Intereses</h2>
-            <div class="grid-hobbies" style="display: grid; gap: 15px; margin-top: 15px;">
+            <div class="grid-hobbies">
                 
                 <!-- Hobby 1: Gaming -->
-                <div class="hobby-item" style="display: flex; align-items: center; gap: 15px; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
-                    <img src="hobby1.jpg" alt="Gaming" style="width: 120px; height: 80px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
-                    <div style="text-align: left;">
-                        <i class="fas fa-headset" style="margin-bottom: 5px; font-size: 1.1rem;"></i>
-                        <span style="display: block; font-size: 0.95rem;"><strong>Gaming:</strong> Overwatch 2, Fallout 76, Minecraft</span>
+                <div class="hobby-item">
+                    <img src="hobby1.jpg" alt="Gaming">
+                    <div class="hobby-text">
+                        <i class="fas fa-headset"></i>
+                        <span><strong>Gaming:</strong> Overwatch 2, Fallout 76 y Minecraft son mis refugios favoritos cuando quiero desconectar; me gusta tanto la acción táctica en equipo como explorar mundos abiertos a mi ritmo.</span>
                     </div>
                 </div>
 
                 <!-- Hobby 2: Música -->
-                <div class="hobby-item" style="display: flex; align-items: center; gap: 15px; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
-                    <img src="hobby2.jpg" alt="Música" style="width: 120px; height: 80px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
-                    <div style="text-align: left;">
-                        <i class="fas fa-music" style="margin-bottom: 5px; font-size: 1.1rem;"></i>
-                        <span style="display: block; font-size: 0.95rem;"><strong>Música:</strong> En Inglés, Japonés, Italiano y Español</span>
+                <div class="hobby-item">
+                    <img src="hobby2.jpg" alt="Música">
+                    <div class="hobby-text">
+                        <i class="fas fa-music"></i>
+                        <span><strong>Música:</strong> Escucho de todo un poco: inglés, japonés, italiano y español. Ir cambiando de idioma en mis playlists también me ayuda a practicar oído mientras estudio japonés.</span>
                     </div>
                 </div>
 
                 <!-- Hobby 3: Entretenimiento -->
-                <div class="hobby-item" style="display: flex; align-items: center; gap: 15px; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
-                    <img src="hobby3.jpg" alt="Tecnología" style="width: 120px; height: 80px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
-                    <div style="text-align: left;">
-                        <i class="fas fa-film" style="margin-bottom: 5px; font-size: 1.1rem;"></i>
-                        <span style="display: block; font-size: 0.95rem;"><strong>Entretenimiento:</strong> Animes, series y cine</span>
+                <div class="hobby-item">
+                    <img src="hobby3.jpg" alt="Entretenimiento">
+                    <div class="hobby-text">
+                        <i class="fas fa-film"></i>
+                        <span><strong>Entretenimiento:</strong> Animes, series y cine ocupan buena parte de mi tiempo libre; suelo combinarlos con la música y los idiomas que me interesan, así que veo bastante contenido en su idioma original.</span>
                     </div>
                 </div>
 
@@ -86,9 +86,9 @@
 
         <section id="cripto" class="content-section">
             <h2><i class="fas fa-lock"></i> Acerca de Criptografía</h2>
-            <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 8px; margin-top: 10px;">
-                <h3 style="margin-bottom: 10px;">El Algoritmo RSA</h3>
-                <p style="font-size: 0.95rem;">
+            <div class="info-box">
+                <h3>El Algoritmo RSA</h3>
+                <p>
                     RSA (Rivest-Shamir-Adleman) es un sistema criptográfico de clave pública desarrollado en 1977. Es uno de los algoritmos más utilizados para asegurar la transmisión de datos. Su seguridad radica en la dificultad computacional de factorizar números enteros muy grandes, sentando las bases para las comunicaciones seguras en el internet moderno.
                 </p>
             </div>
@@ -97,8 +97,8 @@
         <!-- NUEVA SECCIÓN DE LLAVE PGP -->
         <section id="llave-pgp" class="content-section">
             <h2><i class="fas fa-key"></i> Contacto Seguro (PGP)</h2>
-            <div style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 8px; margin-top: 10px; text-align: center;">
-                <p style="font-size: 0.95rem; margin-bottom: 15px;">
+            <div class="info-box pgp-box">
+                <p class="pgp-intro">
                     Descarga mi llave pública para cifrar cualquier mensaje confidencial dirigido a mí.
                 </p>
                 
@@ -106,9 +106,9 @@
                     <i class="fas fa-download"></i> Descargar Llave Pública (.asc)
                 </a>
 
-                <details style="margin-top: 20px; text-align: left; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 6px;">
-                    <summary style="cursor: pointer; font-weight: 600; font-size: 0.9rem;"><i class="fas fa-eye"></i> Ver bloque de texto (Copiar manual)</summary>
-                    <pre style="background-color: #1e1e1e; color: #a6e22e; padding: 15px; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 10px; border: 1px solid rgba(255,255,255,0.1);">
+                <details class="pgp-details">
+                    <summary><i class="fas fa-eye"></i> Ver bloque de texto (Copiar manual)</summary>
+                    <pre class="pgp-pre">
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGo9cmEBEACyI+xwYY7hJ5kDwv9zhnCKBYOzrFfnYPLiUFohRSCX3Vfl2J+m
