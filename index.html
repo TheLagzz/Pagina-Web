@@ -1,90 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adriel | Portafolio ISC</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Portafolio | Adriel Reynoso</title>
+    <!-- Aquí conectamos tu archivo de estilos y tu icono -->
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body style="font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333;">
 
-    <div class="background-animation"></div>
+    <!-- Encabezado y Presentación -->
+    <header style="text-align: center; padding: 50px 20px; background-color: #2c3e50; color: white;">
+        <img src="mi_foto.jpg" alt="Foto de Adriel Reynoso" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #fff;">
+        <h1>Adriel Reynoso</h1>
+        <p>Estudiante de Ingeniería en Sistemas Computacionales | ESCOM - IPN</p>
+    </header>
 
-    <main class="glass-card">
-        <header>
-            <div class="profile-header">
-                <img src="mi_foto.jpg" alt="Foto de Adriel" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 3px solid rgba(255,255,255,0.2);">
-                
-                <h1>Adriel Emilio Reynoso Galindo</h1>
-                <span class="badge">Ingeniería en Sistemas Computacionales</span>
-            </div>
-            
-            <div style="margin-top: 15px; font-size: 0.95rem;">
-                <p class="institution"><strong>Institución:</strong> ESCOM - Instituto Politécnico Nacional</p>
-                <p><strong>Semestre:</strong> Cursando el 6to semestre</p>
-                <p style="margin-top: 10px;"><i class="fas fa-envelope"></i> emiadre1909@outlook.com</p>
-                
-                <div style="margin-top: 15px;">
-                    <a href="https://github.com/TheLagzz" style="color: inherit; margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/adriel-emilio-reynoso-galindo-6a2365415/" style="color: inherit; margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </header>
+    <!-- Sección Sobre Mí y CV -->
+    <section style="max-width: 800px; margin: 40px auto; padding: 0 20px; text-align: center;">
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Soy Adriel. Me apasiona la tecnología, el desarrollo de software y la seguridad informática.</p>
+        <div style="margin-top: 20px;">
+            <a href="CV_Adriel_reynoso.pdf" download="CV_Adriel_Reynoso.pdf" style="display: inline-block; padding: 10px 20px; background-color: #e74c3c; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+                📄 Descargar mi Curriculum Vitae
+            </a>
+        </div>
+    </section>
 
-        <nav class="tabs">
-            <a href="#about"><i class="fas fa-user-code"></i> Perfil</a>
-            <a href="#hobbies"><i class="fas fa-gamepad"></i> Hobbies</a>
-            <a href="#cripto"><i class="fas fa-user-secret"></i> Criptografía</a>
-            <a href="CV_Adriel_reynoso.pdf" target="_blank"><i class="fas fa-file-pdf"></i> CV</a>
-            <a href="#" target="_blank"><i class="fas fa-key"></i> Mi llave Pública</a>
-        </nav>
+    <!-- Sección de Hobbies -->
+    <section style="max-width: 800px; margin: 40px auto; padding: 0 20px; text-align: center;">
+        <h2>Mis Hobbies</h2>
+        <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+            <img src="hobby1.jpg" alt="Hobby 1" style="width: 200px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <img src="hobby2.jpg" alt="Hobby 2" style="width: 200px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <img src="hobby3.jpg" alt="Hobby 3" style="width: 200px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        </div>
+    </section>
 
-        <section id="about" class="content-section">
-            <h2><i class="fas fa-terminal"></i> Acerca de mí</h2>
-            <p>
-                Desarrollador en formación con especial interés en la <strong>seguridad informática</strong> y la <strong>criptografía</strong>. 
-                Actualmente estudiando ingles a nivel A3 y japonés, con una pasión por los videojuegos.
-            </p>
-        </section>
+    <hr style="max-width: 800px; border: 1px solid #ddd; margin: 40px auto;">
 
-        <section id="hobbies" class="content-section">
-            <h2><i class="fas fa-star"></i> Hobbies & Intereses</h2>
-            <div class="grid-hobbies" style="display: grid; gap: 20px; margin-top: 15px;">
-                <div class="hobby-item" style="text-align: center;">
-                    <img src="hobby1.jpg" alt="Gaming" style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;">
-                    <i class="fas fa-headset"></i>
-                    <span>Gaming (Overwatch 2, Fallout 76, Minecraft)</span>
-                </div>
-                <div class="hobby-item" style="text-align: center;">
-                    <img src="hobby2.jpg" alt="Música" style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;">
-                    <i class="fas fa-music"></i>
-                    <span>Música (En Ingles, Japonés, Italiano y Español)</span>
-                </div>
-                <div class="hobby-item" style="text-align: center;">
-                    <img src="hobby3.jpg" alt="Tecnología" style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;">
-                    <i class="fas fa-film"></i>
-                    <span>Animes, series y cine</span>
-                </div>
-            </div>
-        </section>
+    <!-- Sección de Contacto Seguro (Llave PGP) -->
+    <section id="contacto-seguro" style="text-align: center; margin: 40px auto 60px auto; max-width: 800px; padding: 0 20px;">
+        <h2>Contacto Seguro</h2>
+        <p>Si necesitas comunicarte conmigo o enviarme información sensible de forma confidencial, puedes cifrar tu mensaje utilizando mi llave pública PGP.</p>
+        
+        <!-- Botón de Descarga -->
+        <div style="margin: 20px 0;">
+            <a href="llave_publica.asc" download="Adriel_Reynoso_Public_Key.asc" style="display: inline-block; padding: 12px 24px; background-color: #0056b3; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s;">
+                📥 Descargar Llave Pública PGP
+            </a>
+        </div>
 
-        <section id="cripto" class="content-section">
-            <h2><i class="fas fa-lock"></i> Acerca de Criptografía</h2>
-            <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 8px; margin-top: 10px;">
-                <h3 style="margin-bottom: 10px;">El Algoritmo RSA</h3>
-                <p style="font-size: 0.95rem;">
-                    RSA (Rivest-Shamir-Adleman) es un sistema criptográfico de clave pública desarrollado en 1977. Es uno de los algoritmos más utilizados para asegurar la transmisión de datos. Su seguridad radica en la dificultad computacional de factorizar números enteros muy grandes, sentando las bases para las comunicaciones seguras en el internet moderno.
-                </p>
-            </div>
-        </section>
+        <!-- Menú desplegable para ver el código en texto plano -->
+        <details style="background-color: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 15px; text-align: left; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <summary style="cursor: pointer; font-weight: bold; color: #333;">Ver bloque de texto de la llave pública</summary>
+            <pre style="background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 4px; overflow-x: auto; font-size: 12px; margin-top: 15px;">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 
-        <footer>
-            <p>&copy; 2026 | Proyecto Académico - Criptografía</p>
-        </footer>
-    </main>
+[AQUÍ ABRE TU ARCHIVO llave_publica.asc CON EL BLOC DE NOTAS, COPIA TODO EL TEXTO Y PÉGALO REEMPLAZANDO ESTE MENSAJE]
+
+-----END PGP PUBLIC KEY BLOCK-----
+            </pre>
+        </details>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; background-color: #2c3e50; color: white;">
+        <p>© 2026 Adriel Reynoso. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
