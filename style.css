@@ -166,3 +166,22 @@ body {
     padding: 20px 30px;
     font-size: 0.9em;
 }
+/* ESTILOS PARA EL BOTÓN DE LA LLAVE PGP */
+.pgp-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #0056b3, #004494);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pgp-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 86, 179, 0.4);
+    color: #fff;
+}
